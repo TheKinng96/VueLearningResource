@@ -1,5 +1,6 @@
 <template>
   <div>
+    <the-header title="Remember Me"></the-header>
     <stored-resources :resources="storedResources" />
     <button>Enter</button>
   </div>
@@ -7,10 +8,12 @@
 
 <script>
 import StoredResources from './components/Resources/StoredResources.vue';
+import TheHeader from './components/layout/TheHeader.vue';
 
 export default {
   components: {
-    StoredResources
+    StoredResources,
+    TheHeader
   },
   data() {
     return {
