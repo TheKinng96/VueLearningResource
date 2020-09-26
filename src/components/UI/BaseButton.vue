@@ -1,9 +1,13 @@
 <template>
-  <div></div>
+  <button :class="mode">
+    <slot></slot>
+  </button>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ['mode']
+};
 </script>
 
 <style scoped>
