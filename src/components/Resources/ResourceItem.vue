@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  injected: ['deleteResource'],
+  inject: ['deleteResource'],
   props: ['id', 'title', 'description', 'link']
 };
 </script>

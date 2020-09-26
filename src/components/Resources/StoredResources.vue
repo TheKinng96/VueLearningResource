@@ -2,8 +2,8 @@
   <ul>
     <ResourceItem
       v-for="res in resources"
-      :id="res.id"
       :key="res.id"
+      :id="res.id"
       :title="res.title"
       :description="res.description"
       :link="res.link"
